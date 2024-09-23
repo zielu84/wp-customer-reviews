@@ -96,7 +96,7 @@ wpcr3.submit = function(e) {
 		if (v.hasClass('wpcr3_required') && $.trim(v.val()).length === 0) {
 			var label = div2.find('label[for="'+v.attr('id')+'"]'), err = '';
 			if (label.length) {
-				err = $.trim(label.text().replace(':',''))+' jest wymagane.';
+				err = 'Pole '+$.trim(label.text().replace(':',''))+' jest wymagane.';
 			} else {
 				err = 'Wymagane pola nie zostały wypełnione.';
 			}

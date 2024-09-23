@@ -76,12 +76,7 @@ wpcr3.submit = function(e) {
 	var fake_website = parent.find('.wpcr3_fake_website');
 	
 	if (submit.hasClass('wpcr3_disabled')) { return false; }
-	
-	if (wpcr3.mousemove_total <= wpcr3.mousemove_need || wpcr3.keypress_total <= wpcr3.keypress_need) {
-		alert('You did not pass our human detection check. Code '+wpcr3.mousemove_total+','+wpcr3.keypress_total);
-		return false;
-	}
-	
+		
 	var c1_fail = (c1.is(':checked') === true), c2_fail = (c2.is(':checked') === false), c3_fail = (c3.is(':checked') === false);
 	var fake_fail = (fake_website.val().length > 0);
 	if (c1_fail || c3_fail || fake_fail) {

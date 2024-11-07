@@ -84,7 +84,7 @@ wpcr3.submit = function(e) {
 		return false;
 	}
 	if (c2_fail) {
-		alert('Musisz zaznaczyć zgodę.');
+		alert(wpcrTranslations.tocAgreement);
 		return false;
 	}
 	
@@ -96,9 +96,9 @@ wpcr3.submit = function(e) {
 		if (v.hasClass('wpcr3_required') && $.trim(v.val()).length === 0) {
 			var label = div2.find('label[for="'+v.attr('id')+'"]'), err = '';
 			if (label.length) {
-				err = 'Pole '+$.trim(label.text().replace(':',''))+' jest wymagane.';
+				err = wpcrTranslations.requiredFieldWithLabel.replace('%s', $.trim(label.text().replace(':', '')));
 			} else {
-				err = 'Wymagane pola nie zostały wypełnione.';
+				err = wpcrTranslations.requiredField;
 			}
 			req.push(err);
 		}
@@ -128,7 +128,7 @@ wpcr3.submit = function(e) {
 	wpcr3.ajaxPost(parent, ajaxData, function(err, rtn) {
 		if (err) { return; }
 		
-		alert('Dziękujemy! Twoja opinia została przesłana i niedługo będzie opublikowana.');
+		alert(wpcrTranslations.thankYouForOpinion);
 		$(window).scrollTop(0);
 		wpcr3.clearFields();
 		parent.find(".wpcr3_cancel_btn").click();

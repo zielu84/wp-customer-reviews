@@ -1,0 +1,87 @@
+"Project-Id-Version: WP Customer Reviews\n"
+"POT-Creation-Date: 2024-10-31 10:54+0100\n"
+"PO-Revision-Date: 2024-10-31 11:10+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: pl_PL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.5\n"
+"X-Domain: wp-customer-reviews\n"
+
+#: wp-customer-reviews-3.php:312
+msgid "Srednia_ocen "
+msgstr "Średnia ocen "
+
+#: wp-customer-reviews-3.php:310
+msgid "(razem %s)"
+msgstr "(razem %s)"
+
+#: wp-customer-reviews-3.php:856
+msgid "Ocena: "
+msgstr "Ocena: "
+
+#: wp-customer-reviews-3.php:841
+msgid "Opinia: "
+msgstr "Opinia: "
+
+#: wp-customer-reviews-3.php:842
+msgid "tylko test"
+msgstr "tylko test"
+
+#: wp-customer-reviews-3.php:900
+msgid "Wyślij swoją ocenę"
+msgstr "Wyślij swoją ocenę"
+
+#: wp-customer-reviews-3.php:899
+msgid "Zapoznałem/am się z polityką prywatności i akceptuję jej treść."
+msgstr "Zapoznałem/am się z polityką prywatności i akceptuję jej treść."
+
+#: wp-customer-reviews-3.php:898
+msgid "Wyślij"
+msgstr "Wyślij"
+
+#: wp-customer-reviews-3.php:897
+msgid "Anuluj"
+msgstr "Anuluj"
+
+#: wp-customer-reviews-3.php:895
+msgid "Dodaj swoją opinię"
+msgstr "Dodaj swoją opinię"
+
+#: wp-customer-reviews-3.php:896
+msgid "Nie ma jeszcze opinii. Bądź pierwszy!"
+msgstr "Nie ma jeszcze opinii. Bądź pierwszy!"
+
+#: wp-customer-reviews-3.php:480
+msgid "Strona %d z %d: "
+msgstr "Strona %d z %d: "
+
+#: wp-customer-reviews-3.php:398
+msgid "Imię"
+msgstr "Imię"
+
+#: wp-customer-reviews-3.php:398
+msgid "E-mail"
+msgstr "E-mail"
+
+#: wp-customer-reviews-3.php:1041
+msgid "Invalid_email."
+msgstr "Podaj prosze prawidłowy adres email."
+
+# wp-customer-reviews.js
+msgid "Pole %s jest wymagane." 
+msgstr "Pole %s jest wymagane." 
+
+# wp-customer-reviews.js
+msgid "Wymagane pola nie zostały wypełnione." 
+msgstr "Wymagane pola nie zostały wypełnione."
+
+# wp-customer-reviews.js
+msgid "Musisz zaznaczyć zgodę." 
+msgstr "Musisz zaznaczyć zgodę." 
+
+# wp-customer-reviews.js
+msgid "Thank_you_for_opinion." 
+msgstr "Dziękujemy! Twoja opinia została przesłana i niedługo będzie opublikowana." 

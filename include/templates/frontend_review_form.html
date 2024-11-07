@@ -11,7 +11,7 @@ Additionally, this file will be overwritten with each plugin update and/or activ
 				<tr>
 					<td colspan="2">
 						<div class="wpcr3_leave_text">
-							Wyślij swoją ocenę
+							{{send_opinion_text}}
 						</div>
 					</td>
 				</tr>
@@ -27,16 +27,20 @@ Additionally, this file will be overwritten with each plugin update and/or activ
 						<input type="checkbox" class="wpcr3_fakehide wpcr3_fconfirm1" name="wpcr3_fconfirm1" value="1" />
 						<label>
 							<input type="checkbox" name="wpcr3_fconfirm2" class="wpcr3_fconfirm2" value="1" />
-							&nbsp; Zapoznałem/am się z polityką prywatności i akceptuję jej treść.
+							&nbsp; {{toc_agreement_text}}
 						</label>
 						<input type="checkbox" class="wpcr3_fakehide wpcr3_fconfirm3" name="wpcr3_fconfirm3" checked="checked" value="1" />
 					</td>
 				</tr>
 				<tr>
 					<td colspan="2">
-						<div class="wpcr3_button_1 wpcr3_submit_btn">Wyślij</div>
+						<div class="wpcr3_button_1 wpcr3_submit_btn">
+							{{send_text}}
+						</div>
 						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-						<div class="wpcr3_button_1 wpcr3_cancel_btn">Anuluj</div>
+						<div class="wpcr3_button_1 wpcr3_cancel_btn">
+							{{cancel_text}}
+						</div>
 					</td>
 				</tr>
 			</tbody>
@@ -47,12 +51,12 @@ Additionally, this file will be overwritten with each plugin update and/or activ
 <div class="wpcr3_respond_3">
 	<p>
 	<div class="wpcr3_button_1 wpcr3_show_btn">
-		Dodaj swoją opinię
+		{{add_your_opinion_text}}
 	</div>
 	</p>
 	{{!found_posts}}
 	<p class="wpcr3_no_reviews">
-		Nie ma jeszcze opinii. Bądź pierwszy!
+		{{no_opinion_text}}
 	</p>
 	{{/found_posts}}
 </div>

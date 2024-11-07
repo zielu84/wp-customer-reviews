@@ -3,7 +3,9 @@ NOTICE: Changes made to this file do nothing.
 Additionally, this file will be overwritten with each plugin update and/or activation.
 ---%
 <div data-page-opts="{{pageOpts}}" class="wpcr3_pagination">
-	<div class="wpcr3_pagination_page">Page {{onPage}} of {{numPages}}: </div>
+	<div class="wpcr3_pagination_page">
+		{{pages_current_text}}
+	</div>
 	<div data-page="1" class="wpcr3_a {{!hasPrev}}wpcr3_disabled{{/hasPrev}}">&laquo;</div>&nbsp;
 	<div data-page="{{prevPage}}" class="wpcr3_a wpcr3_ls {{!hasPrev}}wpcr3_disabled{{/hasPrev}}">&lsaquo;</div>&nbsp;
 	{{#pages}}
